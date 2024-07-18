@@ -26,6 +26,7 @@ dependencies {
     implementation("com.s-kugel.schneider:fasan-db:1.0.0")
     implementation("com.s-kugel.schneider:eule-db:1.0.0")
     implementation("com.s-kugel.schneider:enums:1.0.0")
+    implementation("com.s-kugel.schneider:common:1.0.0")
 
     runtimeOnly("org.yaml:snakeyaml")
     implementation("io.micronaut.serde:micronaut-serde-jackson")

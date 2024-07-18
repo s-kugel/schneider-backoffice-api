@@ -13,7 +13,7 @@ public class Application {
 
     @Override
     public void configure(@NonNull ApplicationContextBuilder builder) {
-      builder.defaultEnvironments("default", "eule-db", "fasan-db");
+      builder.defaultEnvironments("default", "common", "eule-db", "fasan-db");
     }
   }
 
